@@ -1,5 +1,5 @@
 // TC: O(nlogn) where n is the length of the nums array
-// sc: O(n+k) where n is the length of the nums array and k is the length of res array 
+// sc: O(n+k) where n is the size of the map and priorityqueue and k is the length of res array 
 class Solution {
     public int[] topKFrequent(int[] nums, int k) {
         
