@@ -1,4 +1,5 @@
-
+// TC: O(n) where n is the no of nodes in the tree
+// SC: O(n)
 class Solution {
     public List<List<Integer>> zigzagLevelOrder(TreeNode root) {
         List<List<Integer>> res = new ArrayList<>();
